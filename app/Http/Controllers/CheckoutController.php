@@ -46,6 +46,9 @@ class CheckoutController extends Controller
      */
     public function store(CheckoutRequest $request)
     {
+
+//        dd($request->all());
+
         $contents = Cart::content()->map(function ($item) {
             return $item->model->slug.', '.$item->qty;
         })->values()->toJson();
