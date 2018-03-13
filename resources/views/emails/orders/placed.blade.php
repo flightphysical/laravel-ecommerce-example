@@ -17,6 +17,7 @@ Thank you for your order.
 Name: {{ $product->name }} <br>
 Price: ${{ round($product->price / 100, 2)}} <br>
 Quantity: {{ $product->pivot->quantity }} <br>
+--------SUKI----------- <br>
 @endforeach
 
 You can get further details about your order by logging into our website.
