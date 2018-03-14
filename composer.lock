@@ -1641,16 +1641,16 @@
         },
         {
             "name": "larapack/doctrine-support",
-            "version": "v0.1.5",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larapack/doctrine-support.git",
-                "reference": "16807bb3c6ca8ceb505e8d0caf6b48c2e5724e01"
+                "reference": "3434e59a71c72b0f03c9b07240086bc292eb747b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larapack/doctrine-support/zipball/16807bb3c6ca8ceb505e8d0caf6b48c2e5724e01",
-                "reference": "16807bb3c6ca8ceb505e8d0caf6b48c2e5724e01",
+                "url": "https://api.github.com/repos/larapack/doctrine-support/zipball/3434e59a71c72b0f03c9b07240086bc292eb747b",
+                "reference": "3434e59a71c72b0f03c9b07240086bc292eb747b",
                 "shasum": ""
             },
             "require": {
@@ -1682,7 +1682,7 @@
                 "laravel",
                 "support"
             ],
-            "time": "2018-02-08T14:04:59+00:00"
+            "time": "2018-03-13T12:35:48+00:00"
         },
         {
             "name": "larapack/hooks",
