@@ -36,6 +36,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/search', 'ShopController@search')->name('search');
 
+
 Route::get('/mailable/{order?}', function ($order = 1) {
 
     $order = App\Order::find($order);
@@ -43,3 +44,6 @@ Route::get('/mailable/{order?}', function ($order = 1) {
     return new App\Mail\OrderPlaced($order);
 
 });
+
+Route::get('/search-algolia', 'ShopController@searchAlgolia')->name('search-algolia');
+
