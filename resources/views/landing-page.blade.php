@@ -14,6 +14,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">--}}
 
     </head>
     <body>
@@ -27,6 +28,7 @@
                     @include('partials.menus.main-right')
                 </div>
             </div> <!-- end top-nav -->
+           {{--{!! menu('admin', 'bootstrap') !!}--}}
             <div class="hero container">
                 <div class="hero-copy">
                     <h1>Laravel Ecommerce Demo</h1>

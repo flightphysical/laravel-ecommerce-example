@@ -47,3 +47,7 @@ Route::get('/mailable/{order?}', function ($order = 1) {
 
 Route::get('/search-algolia', 'ShopController@searchAlgolia')->name('search-algolia');
 
+Route::get('/pages/{slug}', 'PageController@getPage');
+
+
+
